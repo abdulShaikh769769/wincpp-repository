@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ThreadpoolDemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/ThreadpoolDemo.res" /d "NDEBUG" /d "_AFXDLL" "F:\VC\Code\ThreadPool\MyThreadpoolDemo\ThreadpoolDemo.rc"" 
+Creating temporary file "C:\Users\admin\AppData\Local\Temp\RSPAE51.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/ThreadpoolDemo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\VC\Code\ThreadPool\MyThreadpoolDemo\Th.cpp"
+"F:\VC\Code\ThreadPool\MyThreadpoolDemo\ThreadpoolDemo.cpp"
+"F:\VC\Code\ThreadPool\MyThreadpoolDemo\ThreadpoolDemoDlg.cpp"
+"F:\VC\Code\ThreadPool\MyThreadpoolDemo\Tk.cpp"
+"F:\VC\Code\ThreadPool\MyThreadpoolDemo\Tp.cpp"
+]
+Creating command line "cl.exe @C:\Users\admin\AppData\Local\Temp\RSPAE51.tmp" 
+Creating temporary file "C:\Users\admin\AppData\Local\Temp\RSPAE61.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/ThreadpoolDemo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\VC\Code\ThreadPool\MyThreadpoolDemo\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\admin\AppData\Local\Temp\RSPAE61.tmp" 
+Creating temporary file "C:\Users\admin\AppData\Local\Temp\RSPAE62.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/ThreadpoolDemo.pdb" /machine:I386 /out:"Release/ThreadpoolDemo.exe" 
+.\Release\StdAfx.obj
+.\Release\Th.obj
+.\Release\ThreadpoolDemo.obj
+.\Release\ThreadpoolDemoDlg.obj
+.\Release\Tk.obj
+.\Release\Tp.obj
+.\Release\ThreadpoolDemo.res
+]
+Creating command line "link.exe @C:\Users\admin\AppData\Local\Temp\RSPAE62.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Th.cpp
+ThreadpoolDemo.cpp
+ThreadpoolDemoDlg.cpp
+Tk.cpp
+Tp.cpp
+Generating Code...
+Linking...
+LINK : fatal error LNK1104: cannot open file "Release/ThreadpoolDemo.exe"
+Error executing link.exe.
+Creating command line "bscmake.exe /nologo /o"Release/ThreadpoolDemo.bsc"  .\Release\StdAfx.sbr .\Release\Th.sbr .\Release\ThreadpoolDemo.sbr .\Release\ThreadpoolDemoDlg.sbr .\Release\Tk.sbr .\Release\Tp.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ThreadpoolDemo.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
